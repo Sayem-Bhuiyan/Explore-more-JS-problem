@@ -20,7 +20,7 @@ function removeDuplicate(arr){
 let uniqueNames = removeDuplicate(names);
 console.log(uniqueNames);
 
-
+// remove all the duplicate numbers from an array and return a new array with all the unique numbers.
 function uniqueNumbers(arr){
     let unique = [];
     for(let i = 0; i < arr.length; i++){
